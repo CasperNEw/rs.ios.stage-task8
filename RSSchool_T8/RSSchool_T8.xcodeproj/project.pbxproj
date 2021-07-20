@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA7CD1C426A5BA34008065F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1C326A5BA34008065F8 /* AppDelegate.m */; };
+		DA7CD1CF26A5BA34008065F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD1CE26A5BA34008065F8 /* Assets.xcassets */; };
+		DA7CD1D226A5BA34008065F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD1D026A5BA34008065F8 /* LaunchScreen.storyboard */; };
+		DA7CD1D526A5BA34008065F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1D426A5BA34008065F8 /* main.m */; };
+		DA7CD1E026A5BFD0008065F8 /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1DE26A5BFD0008065F8 /* ArtistViewController.m */; };
+		DA7CD1E126A5BFD0008065F8 /* ArtistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD1DF26A5BFD0008065F8 /* ArtistViewController.xib */; };
+		DA7CD1E626A5C75B008065F8 /* RSColorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1E526A5C75B008065F8 /* RSColorItem.m */; };
+		DA7CD1EA26A5CE67008065F8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD1E826A5CDB0008065F8 /* Montserrat-Medium.ttf */; };
+		DA7CD1EB26A5CE67008065F8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD1E926A5CDB1008065F8 /* Montserrat-Regular.ttf */; };
+		DA7CD1F026A744C1008065F8 /* RSUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1EF26A744C1008065F8 /* RSUIButton.m */; };
+		DA7CD1F926A7464D008065F8 /* RSDrawOnCanvasDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1F726A7464D008065F8 /* RSDrawOnCanvasDelegate.swift */; };
+		DA7CD1FA26A7464D008065F8 /* RSTimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD1F826A7464D008065F8 /* RSTimerDelegate.swift */; };
+		DA7CD20C26A7476D008065F8 /* RSPalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD20726A7476D008065F8 /* RSPalletVC.m */; };
+		DA7CD20F26A7476D008065F8 /* RSPalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD20B26A7476D008065F8 /* RSPalletVC.xib */; };
+		DA7CD21726A748C4008065F8 /* RSPalleteUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD21626A748C4008065F8 /* RSPalleteUnit.m */; };
+		DA7CD21C26A74902008065F8 /* UIColor+RSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD21B26A74902008065F8 /* UIColor+RSColor.m */; };
+		DA7CD22326A7494E008065F8 /* RSHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD22226A7494E008065F8 /* RSHeadView.m */; };
+		DA7CD22626A74958008065F8 /* RSTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD22526A74958008065F8 /* RSTreeView.m */; };
+		DA7CD22926A7495F008065F8 /* RSPlanetView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD22826A7495F008065F8 /* RSPlanetView.m */; };
+		DA7CD22C26A74967008065F8 /* RSLandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD22B26A74967008065F8 /* RSLandscapeView.m */; };
+		DA7CD23026A7498B008065F8 /* RSTimerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD22E26A7498B008065F8 /* RSTimerVC.xib */; };
+		DA7CD23126A7498B008065F8 /* RSTimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD22F26A7498B008065F8 /* RSTimerVC.swift */; };
+		DA7CD23626A749B8008065F8 /* RSDrawingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD23326A749B8008065F8 /* RSDrawingsVC.swift */; };
+		DA7CD23726A749B8008065F8 /* RSDrawingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7CD23526A749B8008065F8 /* RSDrawingsVC.xib */; };
+		DA7CD23B26A749C8008065F8 /* RSShapeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CD23926A749C8008065F8 /* RSShapeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA7CD1BF26A5BA34008065F8 /* RSSchool_T8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7CD1C226A5BA34008065F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA7CD1C326A5BA34008065F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA7CD1CE26A5BA34008065F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA7CD1D126A5BA34008065F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA7CD1D326A5BA34008065F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7CD1D426A5BA34008065F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA7CD1DD26A5BFD0008065F8 /* ArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		DA7CD1DE26A5BFD0008065F8 /* ArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
+		DA7CD1DF26A5BFD0008065F8 /* ArtistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistViewController.xib; sourceTree = "<group>"; };
+		DA7CD1E326A5C531008065F8 /* RSColorType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSColorType.h; sourceTree = "<group>"; };
+		DA7CD1E426A5C668008065F8 /* RSColorItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSColorItem.h; sourceTree = "<group>"; };
+		DA7CD1E526A5C75B008065F8 /* RSColorItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSColorItem.m; sourceTree = "<group>"; };
+		DA7CD1E826A5CDB0008065F8 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		DA7CD1E926A5CDB1008065F8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		DA7CD1EE26A744C1008065F8 /* RSUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUIButton.h; sourceTree = "<group>"; };
+		DA7CD1EF26A744C1008065F8 /* RSUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUIButton.m; sourceTree = "<group>"; };
+		DA7CD1F226A745AE008065F8 /* RSState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSState.h; sourceTree = "<group>"; };
+		DA7CD1F426A7464C008065F8 /* RSSchool_T8-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T8-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA7CD1F526A7464D008065F8 /* RSPaletteVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPaletteVCDelegate.h; sourceTree = "<group>"; };
+		DA7CD1F626A7464D008065F8 /* RSDrawStateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDrawStateDelegate.h; sourceTree = "<group>"; };
+		DA7CD1F726A7464D008065F8 /* RSDrawOnCanvasDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSDrawOnCanvasDelegate.swift; sourceTree = "<group>"; };
+		DA7CD1F826A7464D008065F8 /* RSTimerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTimerDelegate.swift; sourceTree = "<group>"; };
+		DA7CD20726A7476D008065F8 /* RSPalletVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPalletVC.m; sourceTree = "<group>"; };
+		DA7CD20A26A7476D008065F8 /* RSPalletVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPalletVC.h; sourceTree = "<group>"; };
+		DA7CD20B26A7476D008065F8 /* RSPalletVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSPalletVC.xib; sourceTree = "<group>"; };
+		DA7CD21526A748C4008065F8 /* RSPalleteUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPalleteUnit.h; sourceTree = "<group>"; };
+		DA7CD21626A748C4008065F8 /* RSPalleteUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPalleteUnit.m; sourceTree = "<group>"; };
+		DA7CD21A26A74902008065F8 /* UIColor+RSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSColor.h"; sourceTree = "<group>"; };
+		DA7CD21B26A74902008065F8 /* UIColor+RSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSColor.m"; sourceTree = "<group>"; };
+		DA7CD22126A7494E008065F8 /* RSHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSHeadView.h; sourceTree = "<group>"; };
+		DA7CD22226A7494E008065F8 /* RSHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSHeadView.m; sourceTree = "<group>"; };
+		DA7CD22426A74958008065F8 /* RSTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTreeView.h; sourceTree = "<group>"; };
+		DA7CD22526A74958008065F8 /* RSTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTreeView.m; sourceTree = "<group>"; };
+		DA7CD22726A7495F008065F8 /* RSPlanetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPlanetView.h; sourceTree = "<group>"; };
+		DA7CD22826A7495F008065F8 /* RSPlanetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPlanetView.m; sourceTree = "<group>"; };
+		DA7CD22A26A74967008065F8 /* RSLandscapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLandscapeView.h; sourceTree = "<group>"; };
+		DA7CD22B26A74967008065F8 /* RSLandscapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSLandscapeView.m; sourceTree = "<group>"; };
+		DA7CD22E26A7498B008065F8 /* RSTimerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSTimerVC.xib; sourceTree = "<group>"; };
+		DA7CD22F26A7498B008065F8 /* RSTimerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSTimerVC.swift; sourceTree = "<group>"; };
+		DA7CD23326A749B8008065F8 /* RSDrawingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSDrawingsVC.swift; sourceTree = "<group>"; };
+		DA7CD23426A749B8008065F8 /* RSSchool_T8-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T8-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA7CD23526A749B8008065F8 /* RSDrawingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSDrawingsVC.xib; sourceTree = "<group>"; };
+		DA7CD23926A749C8008065F8 /* RSShapeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSShapeButton.m; sourceTree = "<group>"; };
+		DA7CD23A26A749C8008065F8 /* RSShapeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSShapeButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA7CD1BC26A5BA34008065F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA7CD1B626A5BA34008065F8 = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1C126A5BA34008065F8 /* RSSchool_T8 */,
+				DA7CD1C026A5BA34008065F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA7CD1C026A5BA34008065F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1BF26A5BA34008065F8 /* RSSchool_T8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA7CD1C126A5BA34008065F8 /* RSSchool_T8 */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1E226A5C473008065F8 /* Helpers */,
+				DA7CD1DB26A5BD4B008065F8 /* VC */,
+				DA7CD1C226A5BA34008065F8 /* AppDelegate.h */,
+				DA7CD1C326A5BA34008065F8 /* AppDelegate.m */,
+				DA7CD1CE26A5BA34008065F8 /* Assets.xcassets */,
+				DA7CD1D026A5BA34008065F8 /* LaunchScreen.storyboard */,
+				DA7CD1D326A5BA34008065F8 /* Info.plist */,
+				DA7CD1D426A5BA34008065F8 /* main.m */,
+			);
+			path = RSSchool_T8;
+			sourceTree = "<group>";
+		};
+		DA7CD1DB26A5BD4B008065F8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD23226A74999008065F8 /* Drawing */,
+				DA7CD20626A74751008065F8 /* Palette */,
+				DA7CD1DC26A5BFB1008065F8 /* Artist */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DA7CD1DC26A5BFB1008065F8 /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1DD26A5BFD0008065F8 /* ArtistViewController.h */,
+				DA7CD1DE26A5BFD0008065F8 /* ArtistViewController.m */,
+				DA7CD1DF26A5BFD0008065F8 /* ArtistViewController.xib */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		DA7CD1E226A5C473008065F8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22D26A7497E008065F8 /* Timer */,
+				DA7CD1FB26A7470B008065F8 /* Drawings */,
+				DA7CD1F326A7463C008065F8 /* Protocols */,
+				DA7CD1F126A745A2008065F8 /* State */,
+				DA7CD1ED26A744A2008065F8 /* Buttons */,
+				DA7CD1E726A5CD9B008065F8 /* Fonts */,
+				DA7CD1EC26A7448F008065F8 /* Colors */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DA7CD1E726A5CD9B008065F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1E826A5CDB0008065F8 /* Montserrat-Medium.ttf */,
+				DA7CD1E926A5CDB1008065F8 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA7CD1EC26A7448F008065F8 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1E326A5C531008065F8 /* RSColorType.h */,
+				DA7CD1E426A5C668008065F8 /* RSColorItem.h */,
+				DA7CD1E526A5C75B008065F8 /* RSColorItem.m */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		DA7CD1ED26A744A2008065F8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1EE26A744C1008065F8 /* RSUIButton.h */,
+				DA7CD1EF26A744C1008065F8 /* RSUIButton.m */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		DA7CD1F126A745A2008065F8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1F226A745AE008065F8 /* RSState.h */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		DA7CD1F326A7463C008065F8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD1F726A7464D008065F8 /* RSDrawOnCanvasDelegate.swift */,
+				DA7CD1F626A7464D008065F8 /* RSDrawStateDelegate.h */,
+				DA7CD1F526A7464D008065F8 /* RSPaletteVCDelegate.h */,
+				DA7CD1F826A7464D008065F8 /* RSTimerDelegate.swift */,
+				DA7CD1F426A7464C008065F8 /* RSSchool_T8-Bridging-Header.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DA7CD1FB26A7470B008065F8 /* Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22026A74944008065F8 /* Landscape */,
+				DA7CD21F26A7493E008065F8 /* Planet */,
+				DA7CD21E26A74937008065F8 /* Tree */,
+				DA7CD21D26A7492A008065F8 /* Head */,
+			);
+			path = Drawings;
+			sourceTree = "<group>";
+		};
+		DA7CD20626A74751008065F8 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD21926A748F5008065F8 /* RSColors */,
+				DA7CD21426A748A3008065F8 /* RSPalleteUnit */,
+				DA7CD20A26A7476D008065F8 /* RSPalletVC.h */,
+				DA7CD20726A7476D008065F8 /* RSPalletVC.m */,
+				DA7CD20B26A7476D008065F8 /* RSPalletVC.xib */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+		DA7CD21426A748A3008065F8 /* RSPalleteUnit */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD21526A748C4008065F8 /* RSPalleteUnit.h */,
+				DA7CD21626A748C4008065F8 /* RSPalleteUnit.m */,
+			);
+			path = RSPalleteUnit;
+			sourceTree = "<group>";
+		};
+		DA7CD21926A748F5008065F8 /* RSColors */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD21A26A74902008065F8 /* UIColor+RSColor.h */,
+				DA7CD21B26A74902008065F8 /* UIColor+RSColor.m */,
+			);
+			path = RSColors;
+			sourceTree = "<group>";
+		};
+		DA7CD21D26A7492A008065F8 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22126A7494E008065F8 /* RSHeadView.h */,
+				DA7CD22226A7494E008065F8 /* RSHeadView.m */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		DA7CD21E26A74937008065F8 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22426A74958008065F8 /* RSTreeView.h */,
+				DA7CD22526A74958008065F8 /* RSTreeView.m */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		DA7CD21F26A7493E008065F8 /* Planet */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22726A7495F008065F8 /* RSPlanetView.h */,
+				DA7CD22826A7495F008065F8 /* RSPlanetView.m */,
+			);
+			path = Planet;
+			sourceTree = "<group>";
+		};
+		DA7CD22026A74944008065F8 /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22A26A74967008065F8 /* RSLandscapeView.h */,
+				DA7CD22B26A74967008065F8 /* RSLandscapeView.m */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		DA7CD22D26A7497E008065F8 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD22F26A7498B008065F8 /* RSTimerVC.swift */,
+				DA7CD22E26A7498B008065F8 /* RSTimerVC.xib */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		DA7CD23226A74999008065F8 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD23826A749BE008065F8 /* ShapeButton */,
+				DA7CD23326A749B8008065F8 /* RSDrawingsVC.swift */,
+				DA7CD23526A749B8008065F8 /* RSDrawingsVC.xib */,
+				DA7CD23426A749B8008065F8 /* RSSchool_T8-Bridging-Header.h */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		DA7CD23826A749BE008065F8 /* ShapeButton */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CD23A26A749C8008065F8 /* RSShapeButton.h */,
+				DA7CD23926A749C8008065F8 /* RSShapeButton.m */,
+			);
+			path = ShapeButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA7CD1BE26A5BA34008065F8 /* RSSchool_T8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7CD1D826A5BA34008065F8 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */;
+			buildPhases = (
+				DA7CD1BB26A5BA34008065F8 /* Sources */,
+				DA7CD1BC26A5BA34008065F8 /* Frameworks */,
+				DA7CD1BD26A5BA34008065F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSchool_T8;
+			productName = RSSchool_T8;
+			productReference = DA7CD1BF26A5BA34008065F8 /* RSSchool_T8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA7CD1B726A5BA34008065F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DA7CD1BE26A5BA34008065F8 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = DA7CD1BA26A5BA34008065F8 /* Build configuration list for PBXProject "RSSchool_T8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA7CD1B626A5BA34008065F8;
+			productRefGroup = DA7CD1C026A5BA34008065F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA7CD1BE26A5BA34008065F8 /* RSSchool_T8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA7CD1BD26A5BA34008065F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7CD1EA26A5CE67008065F8 /* Montserrat-Medium.ttf in Resources */,
+				DA7CD1EB26A5CE67008065F8 /* Montserrat-Regular.ttf in Resources */,
+				DA7CD20F26A7476D008065F8 /* RSPalletVC.xib in Resources */,
+				DA7CD1D226A5BA34008065F8 /* LaunchScreen.storyboard in Resources */,
+				DA7CD23026A7498B008065F8 /* RSTimerVC.xib in Resources */,
+				DA7CD1E126A5BFD0008065F8 /* ArtistViewController.xib in Resources */,
+				DA7CD23726A749B8008065F8 /* RSDrawingsVC.xib in Resources */,
+				DA7CD1CF26A5BA34008065F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA7CD1BB26A5BA34008065F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7CD1F926A7464D008065F8 /* RSDrawOnCanvasDelegate.swift in Sources */,
+				DA7CD1C426A5BA34008065F8 /* AppDelegate.m in Sources */,
+				DA7CD1D526A5BA34008065F8 /* main.m in Sources */,
+				DA7CD23126A7498B008065F8 /* RSTimerVC.swift in Sources */,
+				DA7CD22626A74958008065F8 /* RSTreeView.m in Sources */,
+				DA7CD21726A748C4008065F8 /* RSPalleteUnit.m in Sources */,
+				DA7CD1E626A5C75B008065F8 /* RSColorItem.m in Sources */,
+				DA7CD22326A7494E008065F8 /* RSHeadView.m in Sources */,
+				DA7CD22926A7495F008065F8 /* RSPlanetView.m in Sources */,
+				DA7CD1F026A744C1008065F8 /* RSUIButton.m in Sources */,
+				DA7CD23626A749B8008065F8 /* RSDrawingsVC.swift in Sources */,
+				DA7CD21C26A74902008065F8 /* UIColor+RSColor.m in Sources */,
+				DA7CD23B26A749C8008065F8 /* RSShapeButton.m in Sources */,
+				DA7CD1E026A5BFD0008065F8 /* ArtistViewController.m in Sources */,
+				DA7CD22C26A74967008065F8 /* RSLandscapeView.m in Sources */,
+				DA7CD1FA26A7464D008065F8 /* RSTimerDelegate.swift in Sources */,
+				DA7CD20C26A7476D008065F8 /* RSPalletVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA7CD1D026A5BA34008065F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA7CD1D126A5BA34008065F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA7CD1D626A5BA34008065F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA7CD1D726A5BA34008065F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA7CD1D926A5BA34008065F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V343AH88RK;
+				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RSTeam.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/Helpers/Protocols/RSSchool_T8-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA7CD1DA26A5BA34008065F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V343AH88RK;
+				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RSTeam.RSSchool-T8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T8/Helpers/Protocols/RSSchool_T8-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA7CD1BA26A5BA34008065F8 /* Build configuration list for PBXProject "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7CD1D626A5BA34008065F8 /* Debug */,
+				DA7CD1D726A5BA34008065F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7CD1D826A5BA34008065F8 /* Build configuration list for PBXNativeTarget "RSSchool_T8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7CD1D926A5BA34008065F8 /* Debug */,
+				DA7CD1DA26A5BA34008065F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA7CD1B726A5BA34008065F8 /* Project object */;
+}
